@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2ajp4o0w6t54"]
+
+[ext_resource type="PackedScene" uid="uid://is6yrlb0hjf3" path="res://Scenes/ground.tscn" id="1_pnou2"]
+[ext_resource type="PackedScene" uid="uid://ddeo6ruuaunjs" path="res://Scenes/player.tscn" id="2_odypr"]
+
+[node name="Stage" type="Node2D"]
+
+[node name="Ground" parent="." instance=ExtResource("1_pnou2")]
+position = Vector2(148, 142)
+scale = Vector2(5.03338, 0.3585)
+
+[node name="Player" parent="." instance=ExtResource("2_odypr")]
+position = Vector2(125, 51)
