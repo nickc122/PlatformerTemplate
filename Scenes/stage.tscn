@@ -6,8 +6,20 @@
 [node name="Stage" type="Node2D"]
 
 [node name="Ground" parent="." instance=ExtResource("1_pnou2")]
-position = Vector2(148, 142)
-scale = Vector2(5.03338, 0.3585)
+position = Vector2(165, 174)
+scale = Vector2(11.2334, 0.3585)
+
+[node name="Ground2" parent="." instance=ExtResource("1_pnou2")]
+position = Vector2(139, 118)
+scale = Vector2(1.58788, 0.792489)
+
+[node name="Ground4" parent="." instance=ExtResource("1_pnou2")]
+position = Vector2(42, 120)
+scale = Vector2(1.58788, 0.792489)
 
 [node name="Player" parent="." instance=ExtResource("2_odypr")]
 position = Vector2(125, 51)
+
+[node name="Ground3" parent="." instance=ExtResource("1_pnou2")]
+position = Vector2(223, 152)
+scale = Vector2(0.358805, 1)
